@@ -1,0 +1,41 @@
+.profile-contact > strong, .profile-contact .dropdown-trigger, .profile-contact .pointer {
+	display: none;
+}
+
+.profile-contact .dropdown {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0;
+	position: initial;
+}
+
+.profile-contact .dropdown-contents {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.profile-contact .contact-icons > div {
+	clear: none;
+	float: left;
+}
+
+.profile-contact .contact-icons > div > a {
+	margin: 6px 6px 0 0;
+	padding: 3px;
+	background-color: #ffffff;
+	background-image: linear-gradient(#ffffff, #e9e9e9);
+	border: 1px solid #c7c3bf;
+	border-radius: 4px;
+	box-shadow: 0 0 0 1px #ffffff inset;
+}
+
+.profile-contact .contact-icons > div > a:hover {
+	background-color: #e9e9e9;
+	background-image: linear-gradient(#e9e9e9, #ffffff);
+	border-color: #0a8ed0;
+}
+
+.profile-contact .contact-icons > div > a > span.email-icon {
+	background-position: -20px 0;
+}
